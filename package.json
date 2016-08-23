@@ -1,0 +1,19 @@
+{
+  "name": "phantom-screenshot-sample",
+  "version": "1.0.0",
+  "description": "Sample to take screenshot without browser interface in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "take:photo": "phantomjs index.js"
+  },
+  "keywords": [
+    "phantomjs",
+    "screenshot",
+    "sample"
+  ],
+  "dependencies": {
+    "phantomjs-prebuilt": "~2.1.12"
+  },
+  "author": "AbraaoAlves",
+  "license": "MIT"
+}
